@@ -1,0 +1,99 @@
+<!-- ENCRIPTADOR Y DESENCRIPTADOR DE MENSAJES - ALURA CHALLENGE 1 -->
+<!--    CLASES NOMBRADAS BAJO LA METODOLOGIA BEM-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador Alura - Citlali</title>
+    <!--LINK PARA LOS ARCHIVOS DE ESTILOS-->
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/sec-texto.css">
+    <link rel="stylesheet" href="/css/sec-resultado.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    
+
+    <!-- PARA LASS FUENTES DE LA PAGINA-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    
+    <!-- ENCABEZADO DE LA PAGINA -->
+    <header class="cabecera"> 
+        <div class="container"> <!--CONTENEDOR DE LOS ELEMENTOS DEL HEADER-->
+            <img src="/img/Logo.png" alt="Logo de Alura" class="logo-alura">
+            <nav>
+                <ul class="navegacion">
+                    <li class="nav__item"><a 
+                       class="item__link activo" href="index.html">Encriptador Alura+ORACLE</a></li>
+                    <li class="nav__item"><a class="item__link" href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="seccion_1">
+            <div class="container__2"> <!--TEXTO A SER ENCRIPTADOR O DESENCRIPTADO-->
+                <textarea class="input__texto"  id="input__texto" placeholder="Ingresa el texto aqui"></textarea>
+            </div>
+            <div class="advertencia">
+                <img class="foto__advertencia" src="/img/advertencia.png" alt="advertencia">
+                <h6 class="informacion"> Solo letras minusculas y sin acentos.</h6>
+            </div>
+
+            <!--BOTONES DE ENCRIPTAR Y DESENCRIPTAR-->
+            <div class="contenedor__botones">
+                <button class="btn__encriptar" id="btn__encriptar">Encriptar</button>
+                <button class="btn__desencriptar" id="btn__desencriptar">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="seccion_2">
+            <div class="img__resultado" id="img__resultado"> <!--TEXTO YA ENCRIPTADO O DESENCRIPTADO-->
+                <img class="pusheen" src="img/pusheen-detective.png" alt="Gato pusheen detective">
+            </div>
+            <div class="container_parrafo" id="container_parrafo">
+                <h3>Ningun mensaje fue encontrado</h3>
+                <p>Ingresa el texto que desees encriptar o desencriptar</p>
+            </div>
+
+            <!--BOTONES DE COPIAR Y RESULTADO-->
+            <div class="container__copiar">
+                <button class="btn__copiar" id="btn__copiar">Copiar</button>
+            </div>
+            <div class="div__resultado" id="div__resultado">
+                <!-- <textarea class="texto__resultado" id="texto__resultado"></textarea> -->
+                <p class="texto__resultado" id="texto__resultado"></p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="rodapie">
+        <section class="contacto">
+            <div class="contenedor__contacto">
+                <p class="copyright">&copy Copyright Encriptador Alura Citlali - 2023</p>
+                <ul class="contacto__lista">
+                    <li class="contacto__items">
+                        <a href="https://github.com/CitlaliChavezM"><img class="redes" src="img/github.png" alt="Logo github"></a>
+                    </li>
+                    <li>
+                        <a href="https://discord.gg/jZfQGx59"><img class="redes" src="img/discord.png" alt="Logo discord"></a> 
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/citlali-chavez-ing"><img class="redes" src="img/linkedin.png" alt="Logo linkedin"></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+    <script src="/js/script.js"></script>
+</body>
+</html>

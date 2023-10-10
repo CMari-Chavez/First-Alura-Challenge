@@ -1,0 +1,90 @@
+/*Caja de resultado*/
+.seccion_2{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    margin: 2rem;
+    width: 550px;
+    height: 565px;
+    background-color: rgba(252, 226, 219,0.6); 
+    box-sizing: border-box;
+    border-radius: 32px;
+    font-weight: 400;
+    font-size: 19px;
+    cursor: pointer;
+    color: #372948;
+
+}
+
+.img__resultado{
+    position: absolute;
+    box-sizing: border-box;
+    margin: 3% 122px 0 90px;
+}
+
+.pusheen{
+    width: 350px;
+}
+
+.container_parrafo{
+    position: absolute;
+    box-sizing: border-box;
+    color: black;
+    text-align: center;
+    margin: 2.35rem;
+    top: 420px;
+
+}
+
+.container_parrafo h3{
+    font-size: 25px;
+    font-weight: 500;
+}
+.container_parrafo p{
+    margin: 0.5rem;
+    font-weight: 300;
+}
+
+.container__copiar{
+    position: absolute;
+    display: flex;
+    top: 525px;
+    box-sizing: border-box;
+}
+
+.btn__copiar{
+    width: 150px;
+    height: 59px;
+    border-radius: 24px;
+    background-color: #a50580;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Russo One', sans-serif;
+    border: none;
+    cursor: pointer;
+    transition: 1s all;
+
+}
+
+.btn__copiar:hover{
+    transform: scale(1.2);
+}
+
+.div__resultado{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 1rem 1rem 0 1rem;
+
+}
+
+.texto__resultado{
+    font-family: 'Space Mono', monospace;
+}
+
+.ocultar{
+    display: none;
+}

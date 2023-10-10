@@ -1,0 +1,55 @@
+
+.rodapie{
+    margin-top: auto;
+	background-color: rgba(144, 212, 233, 0.6);
+	padding: 20px 0;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.contacto{
+    width: 30%;
+    height: 30%;
+	margin: 0 auto;
+    padding:  0 auto;
+
+}
+
+.contenedor__contacto{
+    width: 700px;
+    height:auto;
+    margin: 0 auto;
+
+}
+
+.copyright{
+    margin: 0.5rem 2.5rem;
+}
+
+.contacto__lista{
+    display: flex;
+    
+}
+
+.redes{
+    display: block;
+    margin: 1rem 1rem;
+    padding-left: 35px;
+    width: 60px;
+    transition: .3s;
+}
+
+.contacto__lista:hover .redes{
+    filter: blur(2px);
+}
+
+.contacto__lista .redes:hover{
+
+    filter: blur(0px);
+}
